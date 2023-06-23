@@ -1,0 +1,10 @@
+access rds:--
+
+ mysql -h db5.c0zkxed3ezyf.us-west-2.rds.amazonaws.com -u admin -p
+password:-
+
+show databases;
+ use student;
+ select * from personal;
+DESCRIBE personal;
+ INSERT INTO personal VALUES(1, "RAM SINGH", "1999-08-01", "8888998899", "M");
